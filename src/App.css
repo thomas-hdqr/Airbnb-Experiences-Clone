@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.navbar {
+  height: 70px;
+  box-shadow: 0 2px 7.46px rgb(0, 0, 0, 10%);
+}
+
+.navbar-logo {
+  margin: 22px 30px;
+  max-width: 100px;
+  vertical-align: middle;
 }
