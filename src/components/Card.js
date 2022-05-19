@@ -6,12 +6,13 @@ function Card() {
         <div className="card">
             <img className="card-image" src="./images/katie-zaferes.png" alt="Katie Zaferes" />
             <div className="card-rating">
-                <img className="card-image" src="./images/star.png" alt="Star rating" />
-                <p className="card-rate">5.0</p>
-                <p className="card-location">USA</p>
+                <img className="card-star" src="./images/star.png" alt="Star rating" />
+                <span className="card-rate">5.0</span>
+                <span className="gray">(6) • </span>
+                <span className="gray"> USA</span>
             </div>
-            <h3>Life lessons with Katie Zaferes</h3>
-            <p>From $136 / person</p>
+            <p>Life lessons with Katie Zaferes</p>
+            <p><span className="bold">From $136</span> / person</p>
         </div>
     )
 }
