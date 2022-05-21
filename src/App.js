@@ -14,10 +14,10 @@ function App() {
         reviewCount="(6) •"
         country="USA"
         title="Life lessons with Katie Zaferes"
-        price={136}
+        price={135}
       />
     </div>
   );
-}
+  }
 
 export default App;
