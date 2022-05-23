@@ -7,24 +7,17 @@ import data from './components/data';
 function App() {
   const experienceElements = data.map(experience => {
     return <Card 
-    id={experience.id} 
-    title={experience.title} 
-    description={experience.description}
-    price={experience.price}
-    coverImg={experience.coverImg}
-    rating={experience.rating}
-    reviewCount={experience.reviewCount}
-    location={experience.location}
-    openSpots={experience.openSpots}
+    key={experience.id} 
+    experience={experience}
     />
   })
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <div>
+      <section className="cards-list">
         {experienceElements}
-      </div>
+      </section>
     </div>
   );
   }
